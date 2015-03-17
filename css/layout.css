@@ -994,6 +994,5 @@ footer .social-links li:first-child { margin-left: 0; }
 .container_contact{
     position:relative;
     left: 0;
-    transform: translateX(15%);
     
 }
