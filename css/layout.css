@@ -997,6 +997,8 @@ footer .social-links li:first-child { margin-left: 0; }
     
 }
 .github-card{
-margin: auto;
-    width: 400px;
+    min-width:30px;
+    margin-left:10px;
+    width:auto;
+    overflow:hidden;
 }
