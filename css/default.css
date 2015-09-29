@@ -28,13 +28,9 @@ e. Others
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
 html, body, div, span, object, iframe,
@@ -121,20 +117,10 @@ table {
 
 /* ------------------------------------------------------------------ */
 /* c. Default and Basic Styles
-      Adapted from:
-      Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
 /* ------------------------------------------------------------------ */
 
 /*  1. Basic  ------------------------------------------------------- */
 
-*,
-*:before,
-*:after {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-}
 
 html {
    font-size: 62.5%;
@@ -256,33 +242,6 @@ blockquote cite a:visited { color: #8B9798; border: none }
 .pull-quote blockquote:before {
    content: none;
 }
-
-/* Abbreviations */
-abbr {
-   font-family: 'opensans-bold', sans-serif;
-	font-variant: small-caps;
-	text-transform: lowercase;
-   letter-spacing: .5px;
-	color: gray;
-}
-abbr:hover { cursor: help; }
-
-/* drop cap */
-.drop-cap:first-letter {
-	float: left;
-	margin: 0;
-	padding: 14px 6px 0 0;
-	font-size: 84px;
-	font-family: /* Copperplate */ 'opensans-bold', sans-serif;
-   line-height: 60px;
-	text-indent: 0;
-	background: transparent;
-	color: inherit;
-}
-
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
-
-
 /*  3. Links  ------------------------------------------------------- */
 
 a, a:visited {
