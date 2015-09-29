@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,100,300italic,400italic,500italic);
+@-ms-viewport{
+  width: device-width;
+}
+body {
+    font-family: "Roboto", "Helvectia", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  width: auto;
+  margin: auto;
+}
+
+.header {
+  height: 75px;
+  margin-bottom: 30px;
+}
+
+.stanga {
+  background: #d9001f;
+  font-size: 30px;
+  height: 100%;
+  display: inline-block;
+  max-width: 30%;
+  width: 100%;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+}
+
+.stanga:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(100%, -50%);
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #d9001f;
+}
+
+.stanga .continut {
+    width: calc(100% - 50px);
+    height: 100%;
+    font-size: 32px;
+    font-weight: 500;
+  color: white;
+}
+
+.bara-gri {
+  width: 30px;
+  height: 100%;
+  background: #bebebe;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.banner {
+  position: relative;
+  height: 100%;
+}
+
+.dreapta {
+  display: inline-block;
+  font-size: 30px;
+  color: #d9001f;
+  height: 100%;
+  background: #bebebe;
+  max-width: 70%;
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+    padding: 5px 0px;
+    box-sizing: border-box;
+}
+
+.dreapta img {
+  height: 80%;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 10px;
+  float: right;
+  vertical-align: middle;
+}
+
+.continut {
+  text-align: center;
+  display: inline-block;
+}
+
+.dreapta .continut {
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 737px) {
+    .dreapta img {
+    display: none
+  }
+
+  .header {
+    height: 150px;
+  }
+
+  .banner {
+    height: 50%;
+  }
+
+  .stanga {
+    display: block;
+    max-width: 100%;
+  }
+
+  .dreapta {
+    display: block;
+    padding-right: 0;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .dreapta img {
+    display: none
+  }
+}
+
+.info {
+  margin-bottom: 80px;
+}
+
+.marele-premiu {
+  width: 40%;
+  background: #E8E9E8;
+  margin-bottom: 0px;
+  text-align: center;
+  display: inline-block;
+}
+
+.premiu {
+  width: 25%;
+  height: 162px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.bonus {
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+}
+.desc {
+  padding-top: 10px;
+  background: #E8E9E8;
+  font-weight: normal;
+}
+
+.info-bonus, .info-premiu, .info-marele-premiu {
+  background: #d9001f;
+  font-size: 16px;
+  padding: 4px 0;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.info-premiu {
+    background: #cccccc;
+    color: #d9001f;
+}
+
+.info-bonus {
+    background: #cccccc;
+    color: #d9001f;
+}
+
+.bonus .desc {
+    color: #d9001f;
+    padding-bottom: 10px;
+}
+
+.marele-premiu img {
+  width: 190px
+}
+
+.premiu img {
+  margin-top: 9px;
+  width: 190px;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  width: 15%;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-left: 50px;
+}
+
+.buton {
+  padding: 0 5px;
+  background: red;
+  /* height: 30px; */
+  margin-top: 25px;
+  font-size: 17px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.oferta-continut {
+  padding: 15px
+}
+
+.premiu small {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    transform: translateY(5px);
+}
+
+.login-form {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.login-form input {
+    width: 100%;
+    background: #ededed;
+    border: none;
+}
+
+@media handheld,only screen and (max-width: 901px) {
+
+    .oferta-continut {
+        position: relative;
+        margin-top: 250px;
+    }
+
+  .login-form {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -20px;
+    transform: translateY(-100%);
+    width: 100%;
+  }
+
+  .premii {
+    margin-top: 5px;
+  }
+
+  .marele-premiu {
+    width: 45%;
+      margin-top: 0px;
+  }
+
+  .premiu {
+    width: 30%;
+      margin-top: 5px;
+  }
+
+  .bonus {
+    width: 20%;
+        margin-top: 0px;
+  }
+}
+
+@media handheld,only screen and (max-aspect-ratio: 3/4) {
+
+    .oferta-continut {
+        position: relative;
+        margin-top: 250px;
+    }
+
+  .login-form {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -20px;
+    transform: translateY(-100%);
+    width: 100%;
+  }
+
+  .marele-premiu {
+    width: 100%;
+    display: block;
+   /* margin-bottom: 70px;*/
+  }
+
+  .premiu {
+    width: 100%;
+    /*margin-bottom: 70px; */
+  }
+
+  .bonus {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background: #E8E9E8;
+  margin-top: 30px;
+  font-weight: 300;
+    font-size: 15px;
+}
+
+/** RED **/
+
+.logo {
+    width: 340px;
+    height: 200px;
+    background: url('./assets/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.marele-premiu:first-child {
+    padding-top: 15px;
+}
