@@ -3,7 +3,7 @@
   width: device-width;
 }
 body {
-    font-family: "Roboto", "Helvectia", sans-serif;
+    font-family: "Roboto", "Helvetica", sans-serif;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 .stanga {
   background: #d9001f;
-  font-size: 30px;
+  font-size: 20px;
   height: 100%;
   display: inline-block;
   max-width: 30%;
@@ -45,7 +45,7 @@ body {
 .stanga .continut {
     width: calc(100% - 50px);
     height: 100%;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
   color: white;
 }
@@ -69,7 +69,7 @@ body {
   font-size: 30px;
   color: #d9001f;
   height: 100%;
-  background: #bebebe;
+  background: #f7f6f6;
   max-width: 70%;
   width: 100%;
   text-align: left;
@@ -96,7 +96,7 @@ body {
     text-align: left;
     vertical-align: middle;
     margin-left: 80px;
-    font-size: 28px;
+    font-size: 23px;
 }
 
 @media screen and (max-width: 737px) {
@@ -104,6 +104,9 @@ body {
     display: none
   }
 
+.continut{
+    font-size: 5px;
+}
   .header {
     height: 150px;
   }
@@ -127,10 +130,15 @@ body {
 
 @media screen and (max-width: 447px) {
   .dreapta img {
-    display: none
+    display: none;
+  }
+  .logo img{
+      display: none;
   }
 }
-
+.continut{
+    font-size: 15px;
+}
 .info {
   margin-bottom: 80px;
 }
