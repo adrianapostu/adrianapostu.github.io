@@ -290,7 +290,7 @@ body {
 
   .login-form {
     display: block;
-    margin: auto;
+    margin-top: 0px;
     position: absolute;
     top: -20px;
     transform: translateY(-100%);
